@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+   <Header />
     <Slider />
     <Body1 class="Body1" />
     <Body2 class="Body2" />
@@ -12,14 +12,10 @@
     <Body8 class="Body8" />
     <Body9 class="Body9" />
     <Body10 class="Body10" />
-
-
     <Footer class="Footer" />
 
-
- 
-
-
+  -->
+    
   </div>
 
 
@@ -42,14 +38,11 @@ import Body10 from './components/Body10.vue'
 
 import Footer from './components/Footer.vue'
 
-
-
-
 export default {
   name: 'app',
   components: {
     
-    Header,
+     Header,
     Slider,
     Body1,
     Body2,
@@ -61,7 +54,7 @@ export default {
     Body8,
     Body9,
     Body10,
-    Footer
+    Footer,
     
 
   }
@@ -80,3 +73,4 @@ export default {
 }
 
 </style>
+

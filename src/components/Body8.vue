@@ -3,16 +3,14 @@
 
 
 <div class="scrollmenu">
-                 <div class="row" style="padding: 20px;">
-                    <a id="amazon-text" style="     font-size: 13px;
-    line-height: 19px; text-size:50px;color: black; font-family:Arial,sans-serif;font-size: 21px!important;
-    line-height: 27.3px!important;
-">Video Oyunu ve Konsol kategorisinde çok satanlar
-</a>
-                    <a href="#" style="font:21px;color: blue; font-family:Arial,sans-serif;font-weight: 400;
-" >Daha fazla göster</a>
-                        
-            </div>
+    <div class="row" style="padding: 20px;">
+      <a id="amazon-text" style="font-size: 13px; line-height: 19px; text-size:50px;color: black; font-family:Arial,sans-serif;font-size: 21px!important;
+        line-height: 27.3px!important;">Video Oyunu ve Konsol kategorisinde çok satanlar
+      </a>
+      <a href="#" style="font:21px;color: blue; font-family:Arial,sans-serif;font-weight: 400;" 
+      >Daha fazla göster</a>
+          
+    </div>
           <ul class="row" style="width: 7250px;">
             
               
@@ -58,8 +56,6 @@
        </a></li>
        <li><a href="#"><img alt="Sony PS4 Dualshock Controller Magma Red v2 Oyun Kolu" src="https://images-eu.ssl-images-amazon.com/images/I/7159+GN-NiL._AC_SY200_.jpg" class="product-image" height="200px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/I/7159+GN-NiL._AC_SY400_.jpg">
        </a></li>
-            
-       
        <li><a href="#"><img alt="Sony Playstation 4 1TB Oyun Konsolu ve FIFA 2019 (Sony Eurasia Garantili)" src="https://images-eu.ssl-images-amazon.com/images/I/51JktyaOsyL._AC_SY200_.jpg" class="product-image" height="200px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/I/51JktyaOsyL._AC_SY400_.jpg">
        </a></li>
        <li><a href="#"><img alt="PS4 PES 2020" src="https://images-eu.ssl-images-amazon.com/images/I/91K53SKRAeL._AC_SY200_.jpg" class="product-image" height="200px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/I/91K53SKRAeL._AC_SY400_.jpg">

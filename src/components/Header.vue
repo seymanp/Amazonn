@@ -1,10 +1,10 @@
 <template>
-    <div class="main-container">
-        <header class="nav-opt-sprite nav-locale-tr nav-lang-tr nav-ssl nav-unrec">
+    <div class="main-container" id="head">
+        <header v-show="header_visibility" class="nav-opt-sprite nav-locale-tr nav-lang-tr nav-ssl nav-unrec">
 
 			<div class="navbar row" id="nav-top">
 				<div class="nav-item col-2" id="nav-top-left">
-
+					
 							
 					<!-- <span style="font-size:30px;cursor:pointer;color: white;" onclick="openNav()">&#9776;  </span> -->
 					<Slider class="slider" style="background-color:white;" width="300" format="push" direction="left" :opacity="0.15" :links="[
@@ -29,28 +29,6 @@
                     </Slider>
 					
 						<div id="mySidebar" class="sidebar">
-							<!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-							<ul>
-								
-								<li><a href="#">Merhaba, Giriş yap</a></li>
-								<li><a href="#">KATAGORİYE GÖRE ALIŞVERİŞ YAP</a></li>
-								<li><a href="#">Moda</a></li>
-								<li><a href="#">Kitap</a></li>
-								<li><a href="#">Bilgisayar ve Ofis</a></li>
-								<li><a href="#">Telefon</a></li>
-								<li><a href="#">Ev ve Mutfak</a></li>
-								<li><a href="#">Kişisel Bakım</a></li>
-								<li><a href="#">Yapı Market</a></li>
-								<li><a href="#">Video ve Oyun Konsol</a></li>
-								<li><a href="#">Bebek ve Oyuncak</a></li>
-								<li><a href="#">Spor ve Outdoor</a></li>
-								<li><a href="#">Tüm Kategoriler</a></li>
-								<li><p href="#">Yardım ve Ayarlar</p></li>
-								<li><a href="#">Hesabım</a></li>
-								<li><a href="#">Yardım</a></li>
-								<li><a href="#">Giriş Yap</a></li>
-				
-							</ul> -->
 						</div>
 					<a href="https://www.amazon.com.tr">
 						<img src="../assets/pic_amazon.png" width=100px>
@@ -89,8 +67,8 @@
 					</div>
 				</div>
 				<div class="nav-item col-4" id="nav-top-right">
-					<a href="#"><img
-							src="https://images-eu.ssl-images-amazon.com/images/G/41/x-site/2018/SWM/SWM_400x39_4._CB484008879_.jpg"></a>
+					<a href="#"> <img src="https://images-eu.ssl-images-amazon.com/images/G/41/x-site/2018/SWM/SWM_400x39_4._CB484008879_.jpg">
+					</a>
 				</div>
 			</div>
 			<div class="navbar" id="nav-bottom">
@@ -108,15 +86,61 @@
 					<ul>
 						<li>
 							<div id="login-area">
-								<a href="https://www.amazon.com.tr/ap/signin?openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com.tr%2Fref%3Dnav_logo%3Fref_%3Dnav_ya_signin%26_encoding%3DUTF8&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.assoc_handle=trflex&amp;openid.mode=checkid_setup&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;"
+												<div class="navbar">
+													<div class="dropdown">
+								<a href="#"
 									class="nav-a nav-a-2" data-ux-jq-mouseenter="true" id="nav-link-accountList"
 									tabindex="25">
-									<span class="row nav-line-1">Merhaba, Giriş yap</span>
-									<span class="row nav-line-2 text-bold">Hesap ve Listeler
+									<span class="row nav-line-1"> </span>
+									<span class="row nav-line-2 text-bold">
 										<span class="nav-icon nav-arrow" style="visibility: visible;">
+													<div>
+														<div class="mainn">
+														<b-dropdown id="dropdown-buttons" text="Merhaba, Giriş yap
+														Hesap ve Listeler"  class="m-2 ">
+															<b-dropdown-item-button style="width: 485px;" ></b-dropdown-item-button>
+																<b-container>
+																	<b-row style="border: 0.5px solid gray; height: 70px;">
+																		<b-col>
+																			<b-row>
+																				<button id="btn_Login" @click="header_visibility = false" style="margin-left: 30%; margin-top: 8px; width:197px; height:30px; border-color: #c89411 #b0820f #99710d; background-color:#c89411;"><router-link to ="/register" @click="header" >Giriş Yap</router-link></button>
+																			</b-row>
+																			<b-row class="text-center"  style="height: 15px; margin-left: 55px;">
+																				<p style="font-size:11px;">Yeni müşteri misiniz? <a style="font-size:11px; color: #0066c0;" href="#"> Buradan başlayın.</a> </p>
+																			</b-row>
+																		</b-col>
+																	</b-row>
+																	<b-row style="border: 0.5px solid gray; height: 115px;">
+																		<b-col style="border: 0.5px solid gray;" class="col-md-6">
+																			<ul style="display: inline;">
+																				<li style="float:left; font-size: 16px; text-color: black; color: black;"><button style="border:none; background-color:white;"><router-link style="color: black;" to ="/listeler" @click="header_visibility = false" >Listelerim</router-link></button></li>
+																				<li><button style="border:none; background-color:white;"><router-link to ="/listeler" @click="header" style="float:left font-size: 13px; color: black;">Liste Oluşturun</router-link></button></li>
+																			</ul>
+																			
+																			
+																		</b-col>
+																		<b-col style="border: 0.5px solid gray;" class="col-md-6">
+																			<li><router-link to ="/login" @click="header" style="float:left; color: black;">Hesabım</router-link></li>
+																			<ul style="display: inline-block; float: left;">
+																				
+																				<li style="float:left;"><button style="border:none; background-color:white;"><router-link to ="/hesabim" style=" font-size: 16px; color: black;">Hesabım</router-link></button></li>
+																				<li style="float:left;"><button style="border:none; background-color:white;" @click="header_visibility = false"><router-link to ="/login" style=" font-size: 13px; color: black;" >Siparişlerim</router-link></button></li>
+																				<li style="float:left;"><button style="border:none; background-color:white;" @click="header_visibility = false"><router-link to ="/login" style=" font-size: 13px; color: black;">Benim İçin Önerilenler</router-link></button></li>
+																			</ul>
+																		</b-col>
+																	</b-row>
+																</b-container>
+														</b-dropdown>
+														</div>
+														
+													</div>	
+
 										</span>
+									
 									</span>
 								</a>
+													</div> 
+												</div>
 							</div>
 						</li>
 						<li>
@@ -146,7 +170,10 @@
 			</div>
 
 		</header>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<router-view />
     </div>
+
 </template>
 
 <script src="https://unpkg.com/@jeremyhamm/vue-slider"></script>
@@ -155,11 +182,26 @@
 import Slider from '@jeremyhamm/vue-slider'
 
 export default {
-    components: {Slider}
+	components: {Slider},
+	data(){
+		return{
+			header_visibility: true,
+			
+		}
+	},
+	methods:{
+		header(){
+			this.header_visibility = false;
+		}
+	}
 }
 </script>
 
+
 <style type="text/css">
+
+.mainn text{}
+
 			#navbar #nav-shop .nav-a:hover {
 				color: #ff9900;
 				text-decoration: underline;
@@ -252,7 +294,7 @@ header #nav-top-center{
     top: 0;
     left: 0;
     background-color: white;
-     overflow-x: hidden;
+    overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
   }
@@ -305,5 +347,42 @@ header #nav-top-center{
 .navMenu{
 	background-color: white;
 }
+
+ 
+#nav-bottom #nav-to-right .ul .li .login-area .nav-link-accountList:hover{
+background-color: aqua;
+display: block;
+
+}
+
+
+/*------BUTTONS --------*/
+#btn_Login{
+    background-color: #FFC635;
+    color:black;
+    cursor: pointer;
+    background-position: right -170px;
+    height: 28px;
+    position: relative;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffe093;
+        border: 0;
+    line-height: 15px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10%
+
+
+}
+#below{
+border-top-style: solid;
+   border-bottom-style: solid;
+}
+
 
 </style>
