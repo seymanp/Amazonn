@@ -5,6 +5,10 @@ import Login from '../views/Login.vue'
 import Hesabim from '../views/Hesabim.vue'
 import Listeler from '../views/Listeler.vue'
 import Register from '../views/Register.vue'
+import CokSatanlar from '../views/CokSatanlar.vue'
+import YeniCikanUrunler from '../views/YeniCikanUrunler.vue'
+import Performans from '../views/Performans.vue'
+import Item from '../views/Item.vue'
 
 
 Vue.use(VueRouter)
@@ -34,6 +38,26 @@ const routes = [
     path: '/register',
     name: 'register',
     component: Register
+  },
+  {
+    path: '/cok-satanlar',
+    name: 'CokSatanlar',
+    component: CokSatanlar
+  },
+  {
+    path: '/yeni-cikan',
+    name: 'YeniCikanUrunler',
+    component: YeniCikanUrunler
+  },
+  {
+    path: '/performans',
+    name: 'Performans',
+    component: Performans
+  },
+  {
+    path: '/item',
+    name: 'Item',
+    component: Item
   }
   
 ]

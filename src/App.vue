@@ -1,18 +1,31 @@
 <template>
   <div id="app">
-      <router-view> </router-view>
-      <!-- <GununFirsatlari1 /> -->
+   <Header />
+   <Item />
+
+    
   </div>
 
 
 </template>
 
 <script>
+import Header from './components/Header.vue'
+import Item from './components/Item.vue'
 
-import GununFirsatlari1 from '@/components/GununFirsatlari1.vue'
+
+
+
 
 export default {
-  GununFirsatlari1,
+  name: 'app',
+  components: {
+    
+     Header,
+     Item   
+    
+
+  }
 }
 </script>
 

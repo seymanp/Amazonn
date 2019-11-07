@@ -1,22 +1,25 @@
 <template>
     <div class="login">
         
-        <Accaount />
+        
+        <CokSatanlar/>
         <Footer />
     </div>
 </template>
 
 <script>
 
-import Accaount from '@/components/AccaountBody.vue'
+
+import CokSatanlar from '@/components/CokSatanlar.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
     name:'login',
     components:{
         
-        Footer,
-        Accaount
+     
+        CokSatanlar,
+        Footer
     }
 }
 </script>

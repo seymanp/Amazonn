@@ -75,8 +75,16 @@
 				<div class="nav-item" id="nav-to-left">
 					<ul>
 						<li><a href="#">Günün Fırsatları</a></li>
-						<li><a href="#">Çok Satanlar</a></li>
-						<li><a href="#">Yeni Çıkanlar</a></li>
+						<li>
+							<router-link to="/cok-satanlar">
+								<a href="#">Çok Satanlar</a>
+							</router-link>
+						</li>
+						<li>
+							<router-link to="/yeni-cikan">
+								<a>Yeni Çıkanlar</a>
+							</router-link>
+						</li>
 						<li><a href="#">Müşteri Hizmetleri</a></li>
 						<li><a href="#">Satış Yap</a></li>
 
@@ -200,7 +208,7 @@ export default {
 
 <style type="text/css">
 
-.mainn text{}
+
 
 			#navbar #nav-shop .nav-a:hover {
 				color: #ff9900;
