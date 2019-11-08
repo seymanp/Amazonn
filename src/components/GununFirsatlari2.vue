@@ -60,8 +60,8 @@
                             style="max-width: 20rem; border: none;"
                             class="mb-2"
                         >
-                         <a href="#"><img  src="https://images-na.ssl-images-amazon.com/images/I/418ERJcf-ML._AA210_.jpg"></a>
-
+                         <router-link to = "/item">  <a href="#"><img  src="https://images-na.ssl-images-amazon.com/images/I/418ERJcf-ML._AA210_.jpg"></a>
+                         </router-link>
                             <b-card-text  style="text-align: left;">
                                 <b style="background-color: orangered; color: white;">GÜNÜN FIRSATI</b><br />
                                 <big style="color: red;">185,00 TL</big><br />

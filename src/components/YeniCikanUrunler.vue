@@ -56,7 +56,8 @@
                                     background-color: white;
                                     font: 10px;
                                     font-weight: 500;
-                                    text-align: left;">AAAAAAAAAAA
+                                    text-align: left;">Amazon Yeni Çıkan Ürünler
+
                         </h1></b-row>
 
                         <b-row>
@@ -256,6 +257,17 @@
 .Sayfa{
     background-color: white;
 
+}
+ .Sayfa .Container .TK p:hover{
+ font-family: arial;
+font-size: 13px;
+ color: #000!important;
+margin: 5px 0 0;
+margin-left: 20px;
+text-align: left;
+ font-weight: 100;
+text-decoration: underline;
+        
 }
 .Sayfa #CS{
 font-family: arial,helvetica,verdana,sans-serif;

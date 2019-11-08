@@ -55,7 +55,8 @@
                             background-color: white;
                             font: 10px;
                             font-weight: 500;
-                            text-align: left;">PERFORMANSSS
+                            text-align: left;">Amazon En İyi Performans Gösterenler
+
                 </h1></b-row>
 
                 <b-row>
@@ -235,13 +236,7 @@
 
                     </b-row>
         </b-col>
-<!-- <div id="Bottom"
-        <h1>En İyi Performans Gösterenler hakkında</h1>
-        <p>En İyi Performans Gösterenler son 24 saat içerisindeki satış sıralamasında en iyi sıçramayı yapan ürünleri listeler. 
-        Örneğin, bir müzik albümünün şu anki satış sıralaması 10 ve 24 saat önceki sıralaması 30 ise En İyi Performans 
-        Gösterenler artışı %200 olur.</p>
-</div> -->
-        <!-- XXXXXXX -->
+
         
     </b-row>
 </b-container>
@@ -296,6 +291,18 @@ padding: 20px 10px 10px 0;
 
     
 
+}
+
+ .Sayfa .Container .TK p:hover{
+ font-family: arial;
+font-size: 13px;
+ color: #000!important;
+margin: 5px 0 0;
+margin-left: 20px;
+text-align: left;
+ font-weight: 100;
+text-decoration: underline;
+        
 }
 .Sayfa .Container .TK h1{
 font-family: arial;

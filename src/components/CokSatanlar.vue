@@ -315,6 +315,17 @@ text-align: left;
 
         
 }
+ .Sayfa .Container .TK p:hover{
+ font-family: arial;
+font-size: 13px;
+ color: #000!important;
+margin: 5px 0 0;
+margin-left: 20px;
+text-align: left;
+ font-weight: 100;
+text-decoration: underline;
+        
+}
 .Sayfa .divBody .Items h1{
     color:black;
      padding-bottom: 4px;
