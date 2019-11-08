@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-   <Header />
-   <Item />
-
-    
+    <router-view></router-view>
   </div>
 
 
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Item from './components/Item.vue'
-
 
 
 
@@ -21,9 +15,7 @@ export default {
   name: 'app',
   components: {
     
-     Header,
-     Item   
-    
+     
 
   }
 }

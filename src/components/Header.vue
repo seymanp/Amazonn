@@ -74,7 +74,8 @@
 			<div class="navbar" id="nav-bottom">
 				<div class="nav-item" id="nav-to-left">
 					<ul>
-						<li><a href="#">Günün Fırsatları</a></li>
+						<li><a href="#"><router-link to ="/gun" @click="header" style="float:left font-size: 13px;">Günün Fırsatları
+	</router-link></a></li>
 						<li>
 							<router-link to="/cok-satanlar">
 								<a href="#">Çok Satanlar</a>

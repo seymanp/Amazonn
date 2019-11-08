@@ -9,6 +9,8 @@ import CokSatanlar from '../views/CokSatanlar.vue'
 import YeniCikanUrunler from '../views/YeniCikanUrunler.vue'
 import Performans from '../views/Performans.vue'
 import Item from '../views/Item.vue'
+import GununFirsatlari from '../views/GununFirsatlari.vue'
+import GununFirsatlari2 from '../views/GununFirsatlari2.vue'
 
 
 Vue.use(VueRouter)
@@ -58,7 +60,18 @@ const routes = [
     path: '/item',
     name: 'Item',
     component: Item
+  },
+  {
+    path: '/gun',
+    name: 'gun',
+    component: GununFirsatlari
+  },
+  {
+    path: '/gun2',
+    name: 'gun2',
+    component: GununFirsatlari2
   }
+
   
 ]
 
