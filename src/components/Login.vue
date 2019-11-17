@@ -1,9 +1,31 @@
 <template> 
-<div> <div class="LoginPage"> <div class="Logo"> <a href="https://www.amazon.com.tr"> <img src="../assets/pic_whiteAmazon.png" width=100px> </a> </div> <div class="Box"> <h2>Giriş Yap</h2> <p>E-posta adresi veya telefon numarası</p> <input id="inp_login"> <p></p> <button> <p> Devam Et</p> </button> <div class="TextRow">Oturum açarak,
-Amazon’un <a href="#">Kullanım ve Satış Koşullarını</a> kabul etmektesiniz. Lütfen <a href="https://www.amazon.com.tr/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=20190901000000000000000000000000000000000000">Gizlilik Bildirimimiz</a>,
-<a href="https://www.amazon.com.tr/gp/help/customer/display.html/?nodeId=201890250">Çerezler Bildirimimiz</a> ve <a href="https://www.amazon.com.tr/gp/BIT/InternetBasedAds">İlgi Alanına Dayalı Reklamlar Bildirimimize</a> göz atın. </div> <a href="#" class="a-expander-header a-declarative a-expander-inline-header a-link-expander" > <i class="a-icon a-icon-expand"></i> <span class="a-expander-prompt"> Yardıma mı ihtiyacınız var? </span> </a> </div> <div class="line"> <h5>Amazon hesabınız yok mu?</h5> </div> 
+<div> <div class="LoginPage"> 
+    <div class="Logo">
+    <a>
+        <router-link to="/">
+            <img src="../assets/pic_whiteAmazon.png" width=100px>
+        </router-link>
+    </a>
 
-	<button id="btn_Register"><router-link to ="/register" @click="header" style="float:left; color: black;"> <p>Amazon Hesabınızı Oluşturun</p> </router-link></button>
+</div>
+        <div class="Box"> 
+            <h2>Giriş Yap</h2> 
+            <p>E-posta adresi veya telefon numarası</p> 
+        <input id="inp_login"> <p></p> <button> 
+            <p> Devam Et</p> </button> 
+        <div class="TextRow">Oturum açarak,
+Amazon’un <a href="#">Kullanım ve Satış Koşullarını</a> kabul etmektesiniz. Lütfen 
+<a href="https://www.amazon.com.tr/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=20190901000000000000000000000000000000000000">Gizlilik Bildirimimiz</a>,
+<a href="https://www.amazon.com.tr/gp/help/customer/display.html/?nodeId=201890250">Çerezler Bildirimimiz</a> ve 
+<a href="https://www.amazon.com.tr/gp/BIT/InternetBasedAds">İlgi Alanına Dayalı Reklamlar Bildirimimize</a> göz atın. 
+</div> <a href="#" class="a-expander-header a-declarative a-expander-inline-header a-link-expander" >
+     <i class="a-icon a-icon-expand"></i> <span class="a-expander-prompt"> Yardıma mı ihtiyacınız var? </span> </a> </div> 
+     <div class="line"> <h5>Amazon hesabınız yok mu?</h5> </div> 
+
+	<button id="btn_Register">
+        <router-link to ="/register" @click="header" style="float:left; color: black;"> 
+        <p>Amazon Hesabınızı Oluşturun</p> </router-link>
+    </button>
 
 
  </div> 

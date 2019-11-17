@@ -86,6 +86,11 @@
 								<a>Yeni Çıkanlar</a>
 							</router-link>
 						</li>
+						<li>
+							<router-link to="/help">
+								<a>Müşteri Hizmetleri</a>
+							</router-link>
+						</li>
 						<li><a href="#">Müşteri Hizmetleri</a></li>
 						<li><a href="#">Satış Yap</a></li>
 

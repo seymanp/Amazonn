@@ -11,6 +11,7 @@ import Performans from '../views/Performans.vue'
 import Item from '../views/Item.vue'
 import GununFirsatlari from '../views/GununFirsatlari.vue'
 import GununFirsatlari2 from '../views/GununFirsatlari2.vue'
+import Help from '../views/Help.vue'
 
 
 Vue.use(VueRouter)
@@ -70,7 +71,13 @@ const routes = [
     path: '/gun2',
     name: 'gun2',
     component: GununFirsatlari2
+  },
+  {
+    path: '/help',
+    name: 'Help',
+    component: Help
   }
+
 
   
 ]
