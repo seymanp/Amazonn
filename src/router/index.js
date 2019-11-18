@@ -12,6 +12,7 @@ import Item from '../views/Item.vue'
 import GununFirsatlari from '../views/GununFirsatlari.vue'
 import GununFirsatlari2 from '../views/GununFirsatlari2.vue'
 import Help from '../views/Help.vue'
+import Moda from '../views/Moda.vue'
 
 
 Vue.use(VueRouter)
@@ -76,6 +77,11 @@ const routes = [
     path: '/help',
     name: 'Help',
     component: Help
+  },
+  {
+    path: '/moda',
+    name: 'Moda',
+    component: Moda
   }
 
 

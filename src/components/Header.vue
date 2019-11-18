@@ -30,9 +30,12 @@
 					
 						<div id="mySidebar" class="sidebar">
 						</div>
-					<a href="https://www.amazon.com.tr">
+					<router-link to="/">
+								<a >
 						<img src="../assets/pic_amazon.png" width=100px>
-					</a>
+								</a>
+					</router-link>
+					
 				</div>
 
 
@@ -91,8 +94,12 @@
 								<a>Müşteri Hizmetleri</a>
 							</router-link>
 						</li>
-						<li><a href="#">Müşteri Hizmetleri</a></li>
-						<li><a href="#">Satış Yap</a></li>
+						<li>
+							<router-link to="/moda">
+								<a>moda</a>
+							</router-link>
+						</li>
+						<!-- <li><a href="#">Satış Yap</a></li> -->
 
 					</ul>
 				</div>
