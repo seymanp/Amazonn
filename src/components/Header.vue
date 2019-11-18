@@ -516,7 +516,7 @@
 
                     </div>
 
-                    <span class="fa fa-bars" role="img" style="font-size:30px;cursor:pointer" v-on:click="openNav()">
+                    <span class="fa fa-bars" role="img" style="font-size:30px;cursor:pointer; margin-left:-150px; border:1px solid white; border-radius: 3px; font-size: 25px;     width: 38px; height: 36px;" v-on:click="openNav()">
 
 					</span>
 
@@ -579,7 +579,11 @@
                                 <a>Yeni Çıkanlar</a>
                             </router-link>
                         </li>
-                        <li><a href="#">Müşteri Hizmetleri</a></li>
+                          <li>
+                            <router-link to="/help">
+                                <a> Müşteri Hizmetleri</a>
+                            </router-link>
+                        </li>
                         <li><a href="#">Satış Yap</a></li>
 
                     </ul>
