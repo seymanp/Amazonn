@@ -12,6 +12,9 @@
     <Body8 class="Body8" />
     <Body9 class="Body9" />
     <Body10 class="Body10" />
+    <BackToTop class="BackToTop" />
+
+
     <Footer class="Footer" />
 
   
@@ -32,6 +35,7 @@ import Body7 from '@/components/Body7.vue'
 import Body8 from '@/components/Body8.vue'
 import Body9 from '@/components/Body9.vue'
 import Body10 from '@/components/Body10.vue'
+import BackToTop from '@/components/BackToTop.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
@@ -50,6 +54,7 @@ export default {
     Body8,
     Body9,
     Body10,
+    BackToTop,
     Footer,
     
 

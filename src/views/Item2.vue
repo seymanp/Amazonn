@@ -3,6 +3,7 @@
         
         <Header/>
         <Item2/>
+        <BackToTop/>
         <Footer />
     </div>
 </template>
@@ -12,6 +13,7 @@
 
 import Header from '@/components/Header.vue'
 import Item2 from '@/components/Item2.vue'
+import BackToTop from '@/components/BackToTop.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
@@ -20,6 +22,7 @@ export default {
         
      Header,
         Item2,
+        BackToTop,
         Footer
     }
 }

@@ -3,6 +3,7 @@
         
         <Header/>
         <Performans/>
+        <BackToTop/>
         <Footer />
     </div>
 </template>
@@ -11,6 +12,7 @@
 
 import Header from '@/components/Header.vue'
 import Performans from '@/components/Performans.vue'
+import BackToTop from '@/components/BackToTop.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
@@ -19,6 +21,7 @@ export default {
         
         Header,
         Performans,
+        BackToTop,
         Footer
     }
 }

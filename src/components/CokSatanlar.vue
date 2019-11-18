@@ -60,13 +60,11 @@
                 </h1></b-row>
 
                 <b-row>
-
-                                                      
-                        <a  id="tiklama" href="#" style=" 
-                                    background-color: white;
-                                    font: 10px;
-                                    text-align: left;"> › Elektronik Kategorisinde Çok Satanlar - Listenin tamamını görmek için tıklayın.
-                        </a>
+                    <a  id="tiklama" href="#" style=" 
+                                background-color: white;
+                                font: 10px;
+                                text-align: left;"> › Elektronik Kategorisinde Çok Satanlar - Listenin tamamını görmek için tıklayın.
+                    </a>
                 </b-row>
                 
                     

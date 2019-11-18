@@ -223,7 +223,7 @@
                         <ul class="hmenu hmenu-visible">
                             <li>
                                 <a v-on:click="openNav()" class="hmenu-item">
-                                    <b-row>
+                                    <b-row style="color: black;">
                                         <b-col>
                                             <i class="fa fa-arrow-left left"></i>
                                         </b-col>
@@ -235,18 +235,20 @@
                             </li>
 
                             <li>
-                                <div class="hmenu-item hmenu-title left">MODA</div>
+                                <div class="hmenu-item hmenu-title left" style="color: black;">MODA</div>
                             </li>
 
-                            <li>
-                                <a href="" class="hmenu-item" style="color:black">
-                                    <b-row>
+                            <li >
+								<router-link to="/moda">
+                                <a class="hmenu-item" style="color:black">
+                                    <b-row >
                                         <b-col>
                                             <p class="left">Kadın </p>
                                         </b-col>
                                         <b-col><i class="fa fa-chevron-right right"></i></b-col>
                                     </b-row>
                                 </a>
+								</router-link>
                             </li>
 
                             <li>
@@ -871,7 +873,7 @@
         background-color: aqua;
         display: block;
     }
-    /*------BUTTONS --------*/
+  
     
     #btn_Login {
         background-color: #FFC635;
@@ -898,12 +900,10 @@
         border-top-style: solid;
         border-bottom-style: solid;
     }
-    /*----------*/
-    
+   
     .sidenav {
         height: 100%;
         width: 0;
-        /*Genişliği javascriptle değiştir*/
         position: fixed;
         z-index: 1;
         top: 0;

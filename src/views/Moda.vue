@@ -3,6 +3,7 @@
         
         <Header/>
         <Moda/>
+        <BackToTop/>
         <Footer />
     </div>
 </template>
@@ -11,6 +12,7 @@
 
 import Header from '@/components/Header.vue'
 import Moda from '@/components/Moda.vue'
+import BackToTop from '@/components/BackToTop.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
@@ -18,6 +20,7 @@ export default {
     components:{
         Header,
         Moda,
+        BackToTop,
         Footer
     }
 }
