@@ -1,9 +1,5 @@
 <template>
     <div>
-
-
-
-
         <div class="navFooterBackToTop">
             <span id="BackToTop">
             <a href="#head">Başa dön</a>

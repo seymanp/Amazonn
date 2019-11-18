@@ -1,66 +1,163 @@
-<template>
-  <div id="app">
-       <Header class="Header" />
-      
 
-    <div id="nav">
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-     
-      
-    </div>
- 
-  </div>
-</template>
+<!--       _
+       .__(.)< (HAW HAW)
+        \___)   
+ ~~~~~~~~~~~~~~~~~~-->
 
 
-<script>
-import Header from './components/Header.vue'
-export default {
-
-  name: 'app',
-  components: {
-    
-    Header,
-   
-     
-    
-
-  }
-}
-</script>
 
 
-<style>
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin: 0 auto;
-  background-color: rgb(197, 197, 197);
-}
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-}
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+
+
+---------------------------------
+
+
+
+<ul class="hmenu hmenu-visible" data-menu-id="1">
+        <li><div class="hmenu-item hmenu-title">KATEGORIYE GÖRE ALIŞVERIŞ YAP</div></li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="2" data-ref-tag="?ref_=nav_em_T1_1_2_2_1">
+            <div>
+              Moda
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="3" data-ref-tag="?ref_=nav_em_T1_1_2_2_2">
+            <div>
+              Kitap
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="4" data-ref-tag="?ref_=nav_em_T1_1_2_2_3">
+            <div>
+              Elektronik
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="5" data-ref-tag="?ref_=nav_em_T1_1_2_2_4">
+            <div>
+              Bilgisayar ve Ofis
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="6" data-ref-tag="?ref_=nav_em_T1_1_2_2_5">
+            <div>
+              Telefon
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="7" data-ref-tag="?ref_=nav_em_T1_1_2_2_6">
+            <div>
+              Ev ve Mutfak
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="8" data-ref-tag="?ref_=nav_em_T1_1_2_2_7">
+            <div>
+              Kişisel Bakım
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="9" data-ref-tag="?ref_=nav_em_T1_1_2_2_8">
+            <div>
+              Yapı Market
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="10" data-ref-tag="?ref_=nav_em_T1_1_2_2_9">
+            <div>
+              Video Oyunu ve Konsol
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="11" data-ref-tag="?ref_=nav_em_T1_1_2_2_10">
+            <div>
+              Bebek ve Oyuncak
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="" class="hmenu-item" data-menu-id="12" data-ref-tag="?ref_=nav_em_T1_1_2_2_11">
+            <div>
+              Spor ve Outdoor
+            </div>
+              <i class="nav-sprite hmenu-arrow-next"></i>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/gp/site-directory?ref_=nav_em_T1_0_2_2_12__fullstore" class="hmenu-item">
+            <div>
+              Tüm Kategoriler
+            </div>
+          </a>
+        </li>
+      <li class="hmenu-separator"></li>
+        <li><div class="hmenu-item hmenu-title">YARDIM VE AYARLAR</div></li>
+        
+        <li>
+          <a href="/gp/css/homepage.html?ref_=nav_em_T1_0_1_0_2_ya" class="hmenu-item">
+            <div>
+              Hesabım        
+            </div>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/gp/help/customer/display.html?nodeId=508510&amp;ref_=nav_em_T1_0_1_0_3_cs_help" class="hmenu-item">
+            <div>
+              Yardım
+            </div>
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://www.amazon.com.tr/ap/signin?openid.assoc_handle=trflex&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.pape.max_auth_age=0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.com.tr%2Fref%3Dnav_logo%3Fref_%3Dnav_em_link_re_signin%26_encoding%3DUTF8&amp;ref_=nav_em_T1_0_1_0_4_link_clc_signin" class="hmenu-item">
+            <div>
+              Giriş Yap
+            </div>
+          </a>
+        </li>
+      <li class="hmenu-separator"></li>
+  </ul>
+
+
+
+
+
+      visibility: visible;

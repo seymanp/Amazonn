@@ -1,11 +1,11 @@
 <template>
     <div>
          <div class="LoginPage">
-            <a>
-        <router-link to="/">
-            <img src="../assets/pic_whiteAmazon.png" width=100px>
-        </router-link>
-    </a>    
+            <div class="Logo">
+                <a href="https://www.amazon.com.tr">
+                    <img src="../assets/pic_whiteAmazon.png" width=100px>
+                </a>
+            </div>
             <div class="Box">
                 <h2>Hesap oluşturun</h2>
                 <p>Ad - Soyad</p>
