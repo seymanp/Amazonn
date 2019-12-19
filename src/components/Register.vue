@@ -6,18 +6,43 @@
             <img src="../assets/pic_whiteAmazon.png" width=100px>
         </router-link>
     </a>    
+
             <div class="Box">
                 <h2>Hesap oluşturun</h2>
                 <p>Ad - Soyad</p>
-                <input id="inp_login">
+                <input 
+                id="inp_login"
+                v-model="AdSoyad" 
+                 type="AdSoyad"
+                 required
+                 name="AdSoyad"
+                 class="inputs"
+                 placeholder="Ad Soyad giriniz"
+                >
                 <p></p>
 
                 <p>E-posta</p>
-                <input id="inp_login">
+                <input 
+                id="inp_login"
+                v-model="email" 
+                 type="email"
+                 required
+                 name="email"
+                 class="inputs"
+                 placeholder="Eposta giriniz"
+                >
                 <p></p>
 
                 <p>Şifre</p>
-                <input id="inp_login">
+                <input
+                id="inp_login"
+                v-model="sifre" 
+                 type="sifre"
+                 required
+                 name="sifre"
+                 class="inputs"
+                 placeholder="Parola giriniz"
+                 >
                 <p>Şifreler en az 6 karakterden oluşmalıdır.</p>
                 <p></p>
 
@@ -26,7 +51,7 @@
                 <p></p>
 
                
-            <button id="btn_Register"> 
+            <button id="btn_Register" @click="userEkle()"> 
                     <p>Amazon Hesabınızı Oluşturun</p>
             </button>
  
@@ -58,8 +83,54 @@
 </template>
 
 <script>
+import axios from "axios";
+const baseURL ="http://localhost:7000/login/degistir"
 export default {
     
+    data(){
+        return{
+        
+
+            user:[],
+            AdSoyad:"",
+            email:"",
+            sifre:"",
+
+            Uyeler:[]
+
+
+
+
+            
+        };
+
+
+    },
+    
+    methods:{
+        async userEkle() {
+         try{
+         const res = await axios.post(baseURL,{
+       
+         AdSoyad:this.AdSoyad,
+         Email:this.email,
+         Sifre:this.sifre
+       
+          
+         });
+          if(res.err === true) throw new Error()
+           /* eslint-disable */ 
+          else console.log("başarılı")
+       } catch {
+            /* eslint-disable */ 
+         console.log("hata")
+        
+       }
+
+       },
+    }
+   
+   
 }
 </script>
 

@@ -51,7 +51,7 @@
 
 
 <script>
-
+ const API_URL = "http://localhost:7000/login"
 export default {
   
       el: '#app',
