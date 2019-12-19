@@ -14,6 +14,9 @@ import GununFirsatlari2 from '../views/GununFirsatlari2.vue'
 import Help from '../views/Help.vue'
 import Moda from '../views/Moda.vue'
 import Item2 from '../views/Item2.vue'
+import SepetSayfasi from '../views/SepetSayfasi.vue'
+
+
 
 Vue.use(VueRouter)
 
@@ -88,8 +91,12 @@ const routes = [
     name: 'Item2',
     component: Item2
   },
+  {
+    path: '/sepet',
+    name: 'sepet',
+    component: SepetSayfasi
 
-
+  },
   
 ]
 

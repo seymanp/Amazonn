@@ -9,8 +9,6 @@
 </template>
 
 <script>
-
-
 import Header from '@/components/Header.vue'
 import Item from '@/components/Item.vue'
 import BackToTop from '@/components/BackToTop.vue'

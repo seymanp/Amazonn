@@ -46,7 +46,7 @@
             </div>
               <div class="line">
                 <h5>Zaten bir hesabınız var mı?</h5>
-                <a href="#"> Giriş Yap</a>
+               <router-link to ="/login"> <a href="#"> Giriş Yap</a></router-link>
             </div>
             </div>
 

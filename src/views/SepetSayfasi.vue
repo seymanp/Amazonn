@@ -1,25 +1,27 @@
 <template>
-    <div class="login">
-        <Header />
-        <AccaountBody />
+    <div class="sepet">
+        
+        <Header/>
+        <Sepet/>
         <BackToTop/>
         <Footer />
     </div>
 </template>
 
 <script>
+
 import Header from '@/components/Header.vue'
-import AccaountBody from '@/components/AccaountBody.vue'
+import Sepet from '@/components/Sepet.vue'
 import BackToTop from '@/components/BackToTop.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
-    name:'login',
+    name:'sepet',
     components:{
+        
         Header,
-          AccaountBody,
+        Sepet,
         BackToTop,
-      
         Footer
     }
 }

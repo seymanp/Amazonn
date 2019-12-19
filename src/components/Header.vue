@@ -523,9 +523,11 @@
                 </div>
 
                 <div class="nav-item col-2">
-                    <a href="https://www.amazon.com.tr">
+                    <router-link to="/">
+                    <a>
                         <img src="../assets/pic_amazon.png" width=100px style="margin-right: 200px;">
                     </a>
+                    </router-link>
                 </div>
 
                 <div class="nav-item col-4" id="nav-top-center">
@@ -556,7 +558,7 @@
                     </div>
                 </div>
                 <div class="nav-item col-4" id="nav-top-right">
-                    <a href="#"> <img src="https://images-eu.ssl-images-amazon.com/images/G/41/x-site/2018/SWM/SWM_400x39_4._CB484008879_.jpg">
+                    <a > <img src="https://images-eu.ssl-images-amazon.com/images/G/41/x-site/2018/SWM/SWM_400x39_4._CB484008879_.jpg">
                     </a>
                 </div>
             </div>
@@ -564,14 +566,14 @@
                 <div class="nav-item" id="nav-to-left">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a>
                                 <router-link to="/gun" @click="header" style="float:left font-size: 13px;">Günün Fırsatları
                                 </router-link>
                             </a>
                         </li>
                         <li>
                             <router-link to="/cok-satanlar">
-                                <a href="#">Çok Satanlar</a>
+                                <a>Çok Satanlar</a>
                             </router-link>
                         </li>
                         <li>
@@ -595,7 +597,7 @@
                             <div id="login-area">
                                 <div class="navbar">
                                     <div class="dropdown">
-                                        <a href="#" class="nav-a nav-a-2" data-ux-jq-mouseenter="true" style="color:black" id="nav-link-accountList" tabindex="25">
+                                        <a class="nav-a nav-a-2" data-ux-jq-mouseenter="true" style="color:black" id="nav-link-accountList" tabindex="25">
                                             <span class="row nav-line-1"> </span>
                                             <span class="row nav-line-2 text-bold">
 										<span class="nav-icon nav-arrow" style="visibility: visible;">
@@ -607,11 +609,17 @@
 																<b-container>
 																	<b-row style="border: 0.5px solid gray; height: 70px;">
 																		<b-col>
-																			<b-row>
-																				<button id="btn_Login" @click="header_visibility = false" style="margin-left: 30%; margin-top: 8px; width:197px; height:30px; border-color: #c89411 #b0820f #99710d; background-color:#c89411;"><router-link to ="/register" @click="header" >Giriş Yap</router-link></button>
+																			<b-row >
+                                                                                <router-link to ="/login" @click="header" >
+																				<button id="btn_Login"  style="margin-left: 30%; margin-top: 8px; width:197px; height:30px; border-color: #c89411 #b0820f #99710d; background-color:#c89411;">
+                                                                                    Giriş Yap
+                                                                                </button>
+                                                                                </router-link>
 																			</b-row>
 																			<b-row class="text-center"  style="height: 15px; margin-left: 55px;">
-																				<p style="font-size:11px;">Yeni müşteri misiniz? <a style="font-size:11px; color: #0066c0;" href="#"> Buradan başlayın.</a> </p>
+																				<p style="font-size:11px;">Yeni müşteri misiniz? 
+                                                                                   <router-link to ="/register">  <a style="font-size:11px; color: #0066c0;" > Buradan başlayın.</a> </router-link>
+                                                                                </p>
 																			</b-row>
 																		</b-col>
 																	</b-row>
@@ -656,7 +664,8 @@
                         </li>
                         <li>
                             <div id="cart-area">
-                                <a href="#">
+                                <router-link to="/sepet">
+                                <a href="">
                                     <div class="col">
                                         <div class="col"><i class="fas fa-shopping-cart"></i></div>
                                         <div class="col" id="count-item-in-cart">0</div>
@@ -667,6 +676,7 @@
                                         <div class="row text-bold">Sepeti</div>
                                     </div>
                                 </a>
+                                </router-link>
                             </div>
                         </li>
                     </ul>
@@ -680,12 +690,11 @@
 
 </template>
 
-<!--<script src="https://unpkg.com/@jeremyhamm/vue-slider"></script>-->
+
 
 <script>
-    // import Slider from '@jeremyhamm/vue-slider'
     export default {
-        // components: {Slider},
+
         data() {
                 return {
                     header_visibility: true,
