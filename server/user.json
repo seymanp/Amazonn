@@ -1,0 +1,30 @@
+{
+    "Kullanıcılar": [
+        {
+            "Ad-Soyad":"Şeyma Nur Pehlivan",
+            "Email":"seyma@gmail.com",
+            "Sifre": "seyma123"
+        },
+        {
+            "Ad-Soyad":"Yağmur Özden",
+            "Email":"yamur08@gmail.com",
+            "Sifre": "yamur123"
+        },
+        {
+            "Ad-Soyad":"Yunus Emre Avcı",
+            "Email":"yunus@gmail.com",
+            "Sifre": "yunus123"
+        },
+        {
+            "Ad-Soyad":"Almıla Sultan Taş",
+            "Email":"almila@gmail.com",
+            "Sifre": "almila123"
+        },
+        {
+            "Ad-Soyad":"Mustafa Furkan Şen",
+            "Email":"furkan@gmail.com",
+            "Sifre": "furkan123"
+        }
+
+    ]
+}

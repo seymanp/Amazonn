@@ -1,0 +1,434 @@
+{
+    "cart": [ {
+        "url": "https://www.amazon.com/gp/product/B00BKQT6F8/ref=ox_sc_act_image_1?ie=UTF8&psc=1&smid=A3UH27URU5GI5Q", "image": "https://images-na.ssl-images-amazon.com/images/I/41UJuETOtuL._SS100_.jpg", "name": "Daniel Wellington Stainless Steel Watch with Brown Strap", "seller": "Daniel Wellington", "isAvailable": true, "isEligible": true
+    }
+    
+    ,
+    {
+        "url": "https://www.amazon.com/gp/product/B00JP6FP6E/ref=ox_sc_act_title_1?ie=UTF8&psc=1&smid=A2VT4H683M5NNA", "image": "https://images-na.ssl-images-amazon.com/images/I/51t0LVOv0QL._SS100_.jpg", "name": "Apple Watch Band Milanese Loop", "seller": "MoKo", "isAvailable": true, "isEligible": false
+    }
+    
+    ],
+    "saved": [ {
+        "url": "https://www.amazon.com/gp/product/B0142CCDT2/ref=ox_sc_act_image_1?ie=UTF8&psc=1&smid=A2VT4H683M5NNA", "image": "https://images-na.ssl-images-amazon.com/images/I/31yjqkf3PAL._SS100_.jpg", "name": "Apple Watch Band Soft Silicone Replacement Sport Band for 38mm Apple Watch", "seller": "MoKo", "isAvailable": true, "isEligible": true
+    }
+    
+    ],
+    "Sepet": [ {
+        "url": "", "image": "", "name": "", "seller": "", "isAvailable": true, "isEligible": true
+    }
+    
+    ,
+    {
+        "url": "", "image": "", "name": "", "seller": "", "isAvailable": true, "isEligible": true
+    }
+    
+    ,
+    {
+        "url": "", "image": "", "name": "", "seller": "", "isAvailable": true, "isEligible": true
+    }
+    
+    ,
+    {
+        "url": "", "image": "", "name": "", "seller": "", "isAvailable": true, "isEligible": true
+    }
+    
+    ],
+    "Body1": [ {
+        "baslik": "%50'ye varan indirimler", 
+        "url": "", 
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1193887_1193887_TR_OHL_DashboardCard_260x260_1_1570783146_jpg._SY260_CB449984532_.jpg", 
+        "acıklama": "Yapı markette seçili 50 TL altı ürünlerde", 
+        "buton": "Fırsatı yakala"
+    }
+    
+    ,
+    {
+        "baslik": "Yeni nesil laptoplar", 
+        "url": "", 
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1193227_1193227_936745_TR_Laptop_DashboardCard_260x260_1570704287_jpg._SY260_CB451762186_.jpg", 
+        "acıklama": "Yeni dizüstü bilgisayarları keşfedin", 
+        "buton": "Alışverişe başla"
+    }
+    
+    ,
+    {
+        "baslik": "Amazon Fashion", 
+        "url": "", 
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/41/AMAZON-FASHION/2019/Flips/Oct/GW/XCM_Manual_1186559_SL_Oct_Dashboard_cards_260x260_Country_Expansion_XCM_Manual_1186559_TR_SL_OCT_CARDS_260x260_1_1566919320_jpg._SY260_CB437999787_.jpg", 
+        "acıklama": "Sonbahar modası; kıyafet, çanta, ayakkabı ve daha fazlası...", 
+        "buton": "Moda alışverişe başla"
+    }
+    
+    ,
+    {
+        "baslik": "iPhone 11 Ön Sipariş", 
+        "url": "", 
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1193935_1193935_942178_TR_iPhone11_DashboardCard_260x260_1570788024_jpg._SY260_CB449973437_.jpg", 
+        "acıklama": "19 Ekim'e kadar ön sipariş verin, iPhone 11'e önce siz sahip olun", 
+        "buton": "Ön sipariş ver"
+    }
+    
+    ],
+    "Body2":[ {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/G/41/Launch/GW/Bubbles/Launch-deals_Shovler_200x200._CB483414808_.jpg", "acıklama": "Fırsatlar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/G/41/AMAZON-FASHION/2019/GW/Jan/GW_Shoveler_Deal_JAN19_200x200._CB458459003_.jpg", "acıklama": "Moda Fırsatları"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/G/41/Launch/GW/Bubbles/1117797_Electronics_Gateway-Bubbles_Electronics_200x200._CB475608282_.jpgAAAA", "acıklama": "Elektronik"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/G/41/Launch/GW/Bubbles/1117797_Computers_Gateway-Bubbles_Computers_200x200._CB473180879_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/G/41/Launch/GW/Bubbles/1117797_Wireless_Gateway-Bubbles_MobilePhones_200x200._CB483593265_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/G/41/Launch/GW/Bubbles/1117797_Kitchen_Gateway-Bubbles_Kitchen_200x200._CB478108634_.jpg", "acıklama": "Mutfak"
+    }
+    
+    ],
+    "Body3":[ {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51OHXLhETML._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41t8AxvdM4L._AC_SY200_.jpgAAAAA", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/517h-x6lfxL._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51kEZxXrmoL._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51GRCHCBm2L._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41yRTyGuq4L._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51dCsXZypKL._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41XqO-FPInL._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41Dwgvf2CcL._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/513CPZsBFpL._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41lZJpQMNxL._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51gfWums-RL._AC_SY200_.jpg", "acıklama": "Kitap"
+    }
+    
+    ],
+    "Body4":[ {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/91VmFqLG7EL._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/31pcd0vS+KL._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41-qh2XiiJL._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/811juXBuTDL._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/513ZsxmxZcL._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41vxbEPoCoL._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/517PnwBe8SL._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/61x2-N8ea+L._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41KXz1x8h7L._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51PjEfSf9ZL._AC_SY200_.jpg", "acıklama": "Bilgisayar"
+    }
+    
+    ],
+    "Body5":[ {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71J9i4mG83L._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71jV+bku0pL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51Q+u+oiagL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/41QwyekZbEL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/81lEZnDyutL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71963nblVgL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51hAj7kaCWL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/91XOg7wKTsL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/81RfMunuAjL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/513+UWYktbL._AC_SY200_.jpg", "acıklama": "Oyuncak"
+    }
+    
+    ],
+    "Body6":[ {
+        "baslik":"Her gün yeni fırsat",
+        "url": "", 
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1191442_1191442_923261_TR_MobileDeals_DashboardCard_260x260_1569491598_jpg._SY260_CB452891444_.jpg", 
+        "acıklama": "Sadece mobil uygulamamıza özel fırsatları kaçırmayın",
+        "buton":"Hemen alın"
+    }
+    
+    ,
+    {
+        "baslik":"Erkek Ayakkabı",
+        "url": "", 
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/41/AMAZON-FASHION/2019/Flips/Spring/GW/GW_DESKTOP_CARD_AF_Spring_M_Shoes_260x260._SY260_CB468638873_.jpg", 
+        "acıklama": "",
+        "buton":"Tüm erkek ayakkabı modellerini gör"
+    }
+    
+    ,
+    {
+        "baslik":"Erkek Modası",
+        "url": "",
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/GW/Catcards/1186559_TR_SL-OCT_CARDS_260x260-2._SY260_CB451920530_.jpg", 
+        "acıklama": "İster şık ister günlük pantolonlar",
+        "buton":"Alışverişe başla"
+    }
+    
+    ,
+    {
+        "baslik": "Powerbank'ler",
+        "url": "",
+        "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1184157_Wireless_BTF_Dashboard_Card_August_2019_260x260_Country_Expansion_XCM_Manual_1184157_tr_country_expansion_260x260_5_1566394890_jpg._SY260_CB437381739_.jpg", 
+        "acıklama": "",
+        "buton":"Ürünleri görüntüle"
+    }
+    
+    ],
+    "Body7":[ {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/6149LTqv1AL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/81x+6kvGzCL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/91JnJDZPdCL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/A1bNZpa5DXL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/518R566FFUL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51OiLLZV7sL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71eoJzQkEWL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71ku7lF8MSL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71ku7lF8MSL._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/61gUr0yxl4L._AC_SY200_.jpg", "acıklama": "Görüntülediğiniz Ürünler"
+    }
+    
+    ],
+    "Body8":[ {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71ZBJI4ICYL._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/61AAMTF5XJL._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71yW8BfsEBL._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/61wwCWNXb1L._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51LVHCFfuzL._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/81lUs3Uj08L._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/81lUs3Uj08L._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/51+LOZ6i7xL._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71x4JSHSRWL._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71midLgIMJL._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ,
+    {
+        "url": "", "image": "https://images-eu.ssl-images-amazon.com/images/I/71l6ITdIItL._AC_SY200_.jpg", "acıklama": "Ev ve Yaşam "
+    }
+    
+    ],
+    "Body9":[
+        {
+            "baslik": "Elektrikli Aletler",
+            "url": "",
+            "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1193887_1193887_TR_OHL_DashboardCard_260x260_1_1570783146_jpg._SY260_CB449984532_.jpg", 
+            "acıklama": "",
+            "buton":"Ürünleri görüntüle"
+        },
+        {
+            "baslik": "Fırsatlar",
+            "url": "",
+            "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1193887_1193887_TR_OHL_DashboardCard_260x260_1_1570783146_jpg._SY260_CB449984532_.jpg" , 
+            "acıklama": "Birçok kategorideki özel fırsatları kaçırmayın",
+            "buton":"Alışverişe başla"
+        },
+        {
+            "baslik": "Güvenlik ve Koruma",
+            "url": "",
+            "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1193887_1193887_TR_OHL_DashboardCard_260x260_1_1570783146_jpg._SY260_CB449984532_.jpg" , 
+            "acıklama": "",
+            "buton":"Ürünleri görüntüle"
+        },
+        {
+            "baslik": "Cep Telefonları",
+            "url": "",
+            "image": "https://images-eu.ssl-images-amazon.com/images/G/41/TR-hq/2019/img/Country_Expansion/XCM_Manual_1193887_1193887_TR_OHL_DashboardCard_260x260_1_1570783146_jpg._SY260_CB449984532_.jpg" , 
+            "acıklama": "",
+            "buton":"Ürünleri görüntüle"
+        }
+    ]
+}
